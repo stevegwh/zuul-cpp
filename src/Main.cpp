@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "Player.h"
+#include "../headers/Player.h"
 
 using namespace std;
 void printWelcome() {
@@ -36,9 +36,9 @@ void commandExecute(string command) {
 }
 
 int main() {
-	Player player;
-	player.setCurrentLocation("Manchester");
-	cout << player.getLocation() << endl;
+	Player *player = new Player();
+	player->setCurrentLocation("Manchester");
+	cout << player->getLocation() << endl;
 	printWelcome();
 	string choice;
 	cout << ">> ";

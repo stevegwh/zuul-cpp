@@ -1,4 +1,4 @@
-#include "Go.h"
+#include "../headers/Go.h"
 #include <iostream>
 
 using namespace std;
