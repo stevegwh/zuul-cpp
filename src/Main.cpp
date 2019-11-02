@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 #include "../headers/Player.h"
+#include "../headers/Go.h"
+#include "../headers/Look.h"
+#include "../headers/CommandInstantiator.h"
 
 using namespace std;
 void printWelcome() {
@@ -10,33 +13,21 @@ void printWelcome() {
 
 bool validateUserChoice(string choice) {
 	string commands[3] = { "go", "look", "take" };
-	int size = sizeof(commands)/sizeof(commands[0]);
 	for (const string& command : commands) {
-		if (command.compare(choice)) {
+		if (command == choice) {
 			return true;
 		}
 	}
 	return false;
 }
 
-void go() {
-	cout << "You went somewhere" << endl;
-}
-
-void look() {
-	cout << "You looked somewhere" << endl;
-}
 void commandExecute(string command) {
-	if (command.compare("go") == 0) {
-		go();
-	}
-	else if (command.compare("look") == 0) {
-		look();
-	}
+    CommandInstantiator commandInstantiator;
+    commandInstantiator.getCommand(command);
 }
 
 int main() {
-	Player *player = new Player();
+	auto *player = new Player();
 	player->setCurrentLocation("Manchester");
 	cout << player->getLocation() << endl;
 	printWelcome();

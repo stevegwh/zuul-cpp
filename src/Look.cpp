@@ -1,5 +1,8 @@
-//
-// Created by forest on 31/10/2019.
-//
+#include <iostream>
+#include "../headers/Look.h"
+
+void Look::execute() {
+    std::cout << "You looked" << std::endl;
+}
 
 #include "../headers/Look.h"
