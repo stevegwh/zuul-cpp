@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include "../headers/Player.h"
 #include "../headers/Go.h"
 #include "../headers/Look.h"
@@ -11,19 +12,39 @@ void printWelcome() {
 	cout << "A remake of a project that I did in Java but with C++" << endl;
 }
 
-bool validateUserChoice(string choice) {
+bool validateUserChoice(vector<string> choice) {
 	string commands[3] = { "go", "look", "take" };
 	for (const string& command : commands) {
-		if (command == choice) {
+		if (command == choice[0]) {
 			return true;
 		}
 	}
 	return false;
 }
 
-void commandExecute(string command) {
+void commandExecute(vector<string> command) {
     CommandInstantiator commandInstantiator;
-    commandInstantiator.getCommand(command);
+    commandInstantiator.getCommand(command[0]);
+}
+
+vector<string> splitString(string toSplit) {
+    vector<string> arr;
+    string str;
+    for (unsigned long i = 0; i < toSplit.length(); ++i) {
+        if(isspace(toSplit[i]) && str.empty()) {
+            continue;
+        }
+        if (isspace(toSplit[i])) {
+            arr.push_back(str);
+            str = "";
+        } else if (i == toSplit.length() - 1) {
+            str += toSplit[i];
+            arr.push_back(str);
+        } else {
+            str += toSplit[i];
+        }
+    }
+    return arr;
 }
 
 int main() {
@@ -34,8 +55,12 @@ int main() {
 	string choice;
 	cout << ">> ";
 	getline(cin, choice);
-	if (validateUserChoice(choice)) {
-		commandExecute(choice);
+    vector<string> choiceArr = splitString(choice);
+    for (const string& ele : choiceArr) {
+        cout << ele << endl;
+    }
+	if (validateUserChoice(choiceArr)) {
+		commandExecute(choiceArr);
 		choice.clear();
 		main();
 	}
