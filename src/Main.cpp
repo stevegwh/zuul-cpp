@@ -5,6 +5,7 @@
 #include "../headers/Go.h"
 #include "../headers/Look.h"
 #include "../headers/CommandInstantiator.h"
+#include "../headers/CSVReader.h"
 
 using namespace std;
 void printWelcome() {
@@ -48,6 +49,9 @@ vector<string> splitString(string toSplit) {
 }
 
 int main() {
+    auto *csvReader = new CSVReader("roomData.csv");
+    std::vector<std::vector<std::string>> data = csvReader->getData();
+    cout << data[0][0] << endl;
 	auto *player = new Player();
 	player->setCurrentLocation("Manchester");
 	cout << player->getLocation() << endl;
