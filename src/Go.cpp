@@ -1,9 +1,9 @@
 #include "../headers/Go.h"
 #include <iostream>
+#include <vector>
+#include <string>
 
-using namespace std;
-
-void Go::execute()
+void Go::execute(std::vector<std::string> inputArr)
 {
-	cout << "You went x" << endl;
+	std::cout << "You went " + inputArr[1] << std::endl;
 }

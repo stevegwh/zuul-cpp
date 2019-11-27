@@ -10,14 +10,16 @@
 #include <vector>
 #include <string>
 
+
 class CSVReader {
 private:
-    std::string delimeter;
+    char delimeter;
     std::string fileName;
+	std::vector<std::string> splitString(std::string toSplit, char delimeter);
 public:
     std::vector<std::vector<std::string>> getData();
-    CSVReader(std::string filename, std::string delm = ",") :
-            fileName(std::move(filename)), delimeter(std::move(delm))
+    CSVReader(std::string filename, char delm = ',') :
+             delimeter(std::move(delm)), fileName(std::move(filename))
     { }
 };
 

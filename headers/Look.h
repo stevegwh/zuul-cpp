@@ -9,7 +9,7 @@
 class Look: public Command
 {
 public:
-    void execute() override;
+	void execute(std::vector<std::string> inputArr) override;
 };
 
 

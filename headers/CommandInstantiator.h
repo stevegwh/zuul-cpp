@@ -1,7 +1,3 @@
-//
-// Created by forest on 01/11/2019.
-//
-
 #ifndef ZUUL_CPP_COMMANDINSTANTIATOR_H
 #define ZUUL_CPP_COMMANDINSTANTIATOR_H
 
@@ -14,11 +10,11 @@
 
 class CommandInstantiator {
 private:
-    std::map<std::string, std::unique_ptr<Command>> commands;
+	std::map<std::string, std::unique_ptr<Command>> commands;
 
 public:
-    void getCommand(const std::string& command);
-    CommandInstantiator();
+	void getCommand(const std::string& command, std::vector<std::string> inputArr);
+	CommandInstantiator();
 };
 
 

@@ -11,7 +11,47 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fd2ba77-3b3f-4002-bdd4-3ed258fb6a36" name="Default Changelist" comment="" />
+    <list default="true" id="4fd2ba77-3b3f-4002-bdd4-3ed258fb6a36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.kdev4/zuul-cpp.kdev4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Go.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Look.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Player.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Room.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/zuul-cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-cpp.kdev4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Go.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Go.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Look.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Look.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/zuul-cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/zuul-cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/CSVReader.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/CSVReader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Command.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Command.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/CommandInstantiator.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/CommandInstantiator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandInstantiator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandInstantiator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +120,9 @@
       <workItem from="1572778750212" duration="1750000" />
       <workItem from="1573128536249" duration="2512000" />
       <workItem from="1573418179337" duration="125000" />
-      <workItem from="1573419031800" duration="194000" />
+      <workItem from="1573419031800" duration="895000" />
+      <workItem from="1574189597568" duration="753000" />
+      <workItem from="1574847139855" duration="878000" />
     </task>
     <task id="LOCAL-00001" summary="CLion changes">
       <created>1572544422171</created>
@@ -110,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573418291539</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added lots of things.">
+      <created>1573419245077</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573419245077</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,7 +1,3 @@
-//
-// Created by forest on 31/10/2019.
-//
-
 #ifndef ZUUL_CPP_ROOM_H
 #define ZUUL_CPP_ROOM_H
 
@@ -20,12 +16,27 @@ private:
     std::vector<std::string> actorsInRoom;
     std::map<std::string, std::string> exits;
 public:
+    std::string getName();
+    std::string setName();
     std::string getDescription();
     std::string setDescription();
+    std::string getExit(std::string direction);
 
-    explicit Room(std::string data[]) {
-        name = data[0];
-        description = data[1];
+    Room(std::vector<std::string> data) :
+        name(data[0]), description(data[1])
+    {
+		if (data[2] != "null") {
+			exits["north"] = data[2];
+		}
+		if (data[3] != "null") {
+			exits["east"] = data[3];
+		}
+		if (data[4] != "null") {
+			exits["south"] = data[4];
+		}
+		if (data[5] != "null") {
+			exits["west"] = data[5];
+		}
     }
 };
 

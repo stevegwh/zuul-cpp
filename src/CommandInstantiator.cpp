@@ -1,11 +1,7 @@
-//
-// Created by forest on 01/11/2019.
-//
-
 #include "../headers/CommandInstantiator.h"
 
-void CommandInstantiator::getCommand(const std::string& command) {
-    commands[command]->execute();
+void CommandInstantiator::getCommand(const std::string& command, std::vector<std::string> inputArr) {
+    commands[command]->execute(inputArr);
 }
 
 CommandInstantiator::CommandInstantiator() {

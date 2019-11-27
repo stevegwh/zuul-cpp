@@ -1,21 +1,27 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <map>
+#include <memory>
 #include "../headers/Player.h"
 #include "../headers/Go.h"
 #include "../headers/Look.h"
 #include "../headers/CommandInstantiator.h"
 #include "../headers/CSVReader.h"
+#include "../headers/Room.h"
 
-using namespace std;
+
+std::map<std::string, std::unique_ptr<Room>> rooms;
+
+
 void printWelcome() {
-	cout << "Welcome to the World of Zuul" << endl;
-	cout << "A remake of a project that I did in Java but with C++" << endl;
+	std::cout << "Welcome to the World of Zuul" << std::endl;
+	std::cout << "A remake of a project that I did in Java but with C++" << std::endl;
 }
 
-bool validateUserChoice(vector<string> choice) {
-	string commands[3] = { "go", "look", "take" };
-	for (const string& command : commands) {
+bool validateUserChoice(std::vector<std::string> choice) {
+	std::string commands[3] = { "go", "look", "take" };
+	for (const std::string& command : commands) {
 		if (command == choice[0]) {
 			return true;
 		}
@@ -23,14 +29,14 @@ bool validateUserChoice(vector<string> choice) {
 	return false;
 }
 
-void commandExecute(vector<string> command) {
+void commandExecute(std::vector<std::string> command) {
     CommandInstantiator commandInstantiator;
-    commandInstantiator.getCommand(command[0]);
+    commandInstantiator.getCommand(command[0], command);
 }
 
-vector<string> splitString(string toSplit) {
-    vector<string> arr;
-    string str;
+std::vector<std::string> splitString(std::string toSplit) {
+    std::vector<std::string> arr;
+    std::string str;
     for (unsigned long i = 0; i < toSplit.length(); ++i) {
         if(isspace(toSplit[i]) && str.empty()) {
             continue;
@@ -48,19 +54,29 @@ vector<string> splitString(string toSplit) {
     return arr;
 }
 
-int main() {
-    auto *csvReader = new CSVReader("roomData.csv");
+
+void generateRooms() {
+	std::cout << "Reading data now" << std::endl;
+    auto *csvReader = new CSVReader("/home/forest/CLionProjects/zuul-cpp/src/roomData.csv");
     std::vector<std::vector<std::string>> data = csvReader->getData();
-    cout << data[0][0] << endl;
+	
+	for (int i = 0; i < data.size(); i++) {
+		rooms[data[i][0]] = std::unique_ptr<Room>(new Room(data[i]));
+	}
+}
+
+int main() {
+	
+	generateRooms();
 	auto *player = new Player();
-	player->setCurrentLocation("Manchester");
-	cout << player->getLocation() << endl;
+	player->setCurrentLocation("entrance");
+	std::cout << rooms[player->getLocation()]->getDescription() << std::endl;
 	printWelcome();
-	string choice;
-	cout << ">> ";
+	std::string choice;
+	std::cout << ">> ";
 	getline(cin, choice);
-    vector<string> choiceArr = splitString(choice);
-    for (const string& ele : choiceArr) {
+    std::vector<std::string> choiceArr = splitString(choice);
+    for (const std::string& ele : choiceArr) {
         cout << ele << endl;
     }
 	if (validateUserChoice(choiceArr)) {

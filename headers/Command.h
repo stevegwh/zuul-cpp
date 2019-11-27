@@ -1,14 +1,13 @@
-//
-// Created by forest on 01/11/2019.
-//
-
 #ifndef ZUUL_CPP_COMMAND_H
 #define ZUUL_CPP_COMMAND_H
+
+#include <string>
+#include <vector>
 
 
 class Command {
 public:
-    virtual void execute() = 0;
+    virtual void execute(std::vector<std::string> inputArr) = 0;
 };
 
 
