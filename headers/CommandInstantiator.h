@@ -10,10 +10,10 @@
 
 class CommandInstantiator {
 private:
-	std::map<std::string, std::unique_ptr<Command>> commands;
+	std::map<std::string, Command*> commands;
 
 public:
-	void getCommand(const std::string& command, std::vector<std::string> inputArr);
+    Command* getCommand(const std::string& command);
 	CommandInstantiator();
 };
 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/cmake-3.15.5-Linux-x86_64/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/forest/CLionProjects/zuul-cpp
+CMAKE_SOURCE_DIR = /mnt/c/Users/Steve/CLionProjects/zuul-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/forest/CLionProjects/zuul-cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/forest/CLionProjects/zuul-cpp/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/opt/cmake-3.15.5-Linux-x86_64/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles /home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles /mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ src/CSVReader.cpp.s:
 	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.s
 .PHONY : src/CSVReader.cpp.s
 
+src/CommandHandler.o: src/CommandHandler.cpp.o
+
+.PHONY : src/CommandHandler.o
+
+# target to build an object file
+src/CommandHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o
+.PHONY : src/CommandHandler.cpp.o
+
+src/CommandHandler.i: src/CommandHandler.cpp.i
+
+.PHONY : src/CommandHandler.i
+
+# target to preprocess a source file
+src/CommandHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.i
+.PHONY : src/CommandHandler.cpp.i
+
+src/CommandHandler.s: src/CommandHandler.cpp.s
+
+.PHONY : src/CommandHandler.s
+
+# target to generate assembly for a file
+src/CommandHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.s
+.PHONY : src/CommandHandler.cpp.s
+
 src/CommandInstantiator.o: src/CommandInstantiator.cpp.o
 
 .PHONY : src/CommandInstantiator.o
@@ -176,6 +203,33 @@ src/CommandInstantiator.s: src/CommandInstantiator.cpp.s
 src/CommandInstantiator.cpp.s:
 	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.s
 .PHONY : src/CommandInstantiator.cpp.s
+
+src/Game.o: src/Game.cpp.o
+
+.PHONY : src/Game.o
+
+# target to build an object file
+src/Game.cpp.o:
+	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/Game.cpp.o
+.PHONY : src/Game.cpp.o
+
+src/Game.i: src/Game.cpp.i
+
+.PHONY : src/Game.i
+
+# target to preprocess a source file
+src/Game.cpp.i:
+	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
+
+src/Game.s: src/Game.cpp.s
+
+.PHONY : src/Game.s
+
+# target to generate assembly for a file
+src/Game.cpp.s:
+	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
 
 src/Go.o: src/Go.cpp.o
 
@@ -324,9 +378,15 @@ help:
 	@echo "... src/CSVReader.o"
 	@echo "... src/CSVReader.i"
 	@echo "... src/CSVReader.s"
+	@echo "... src/CommandHandler.o"
+	@echo "... src/CommandHandler.i"
+	@echo "... src/CommandHandler.s"
 	@echo "... src/CommandInstantiator.o"
 	@echo "... src/CommandInstantiator.i"
 	@echo "... src/CommandInstantiator.s"
+	@echo "... src/Game.o"
+	@echo "... src/Game.i"
+	@echo "... src/Game.s"
 	@echo "... src/Go.o"
 	@echo "... src/Go.i"
 	@echo "... src/Go.s"

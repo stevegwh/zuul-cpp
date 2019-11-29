@@ -8,123 +8,137 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/forest/CLionProjects/zuul-cpp/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/forest/CLionProjects/zuul-cpp/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="zuul-cpp">
-				<Option output="/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/zuul-cpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/forest/CLionProjects/zuul-cpp/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/zuul-cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 zuul-cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 zuul-cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="zuul-cpp/fast">
-				<Option output="/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/zuul-cpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/forest/CLionProjects/zuul-cpp/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/zuul-cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 zuul-cpp/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 zuul-cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/forest/CLionProjects/zuul-cpp/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/headers/CSVReader.h">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/CSVReader.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/headers/Command.h">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Command.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/headers/CommandInstantiator.h">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/CommandHandler.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/headers/Go.h">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/CommandInstantiator.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/headers/Look.h">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Game.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/headers/Player.h">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Go.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/headers/Room.h">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Look.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/src/CSVReader.cpp">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Player.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/src/CommandInstantiator.cpp">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Room.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/src/Go.cpp">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CSVReader.cpp">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/src/Look.cpp">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CommandHandler.cpp">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/src/Main.cpp">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CommandInstantiator.cpp">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/src/Player.cpp">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Game.cpp">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/src/Room.cpp">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Go.cpp">
 			<Option target="zuul-cpp"/>
 		</Unit>
-		<Unit filename="/home/forest/CLionProjects/zuul-cpp/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Look.cpp">
+			<Option target="zuul-cpp"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Main.cpp">
+			<Option target="zuul-cpp"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Player.cpp">
+			<Option target="zuul-cpp"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Room.cpp">
+			<Option target="zuul-cpp"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Steve/CLionProjects/zuul-cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

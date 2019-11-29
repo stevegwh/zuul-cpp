@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/cmake-3.15.5-Linux-x86_64/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/forest/CLionProjects/zuul-cpp
+CMAKE_SOURCE_DIR = /mnt/c/Users/Steve/CLionProjects/zuul-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/forest/CLionProjects/zuul-cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/zuul-cpp.dir/depend.make
@@ -59,94 +59,120 @@ include CMakeFiles/zuul-cpp.dir/flags.make
 
 CMakeFiles/zuul-cpp.dir/src/Main.cpp.o: CMakeFiles/zuul-cpp.dir/flags.make
 CMakeFiles/zuul-cpp.dir/src/Main.cpp.o: ../src/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Main.cpp.o -c /home/forest/CLionProjects/zuul-cpp/src/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Main.cpp.o -c /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Main.cpp
 
 CMakeFiles/zuul-cpp.dir/src/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zuul-cpp.dir/src/Main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forest/CLionProjects/zuul-cpp/src/Main.cpp > CMakeFiles/zuul-cpp.dir/src/Main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Main.cpp > CMakeFiles/zuul-cpp.dir/src/Main.cpp.i
 
 CMakeFiles/zuul-cpp.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zuul-cpp.dir/src/Main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forest/CLionProjects/zuul-cpp/src/Main.cpp -o CMakeFiles/zuul-cpp.dir/src/Main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Main.cpp -o CMakeFiles/zuul-cpp.dir/src/Main.cpp.s
 
 CMakeFiles/zuul-cpp.dir/src/Look.cpp.o: CMakeFiles/zuul-cpp.dir/flags.make
 CMakeFiles/zuul-cpp.dir/src/Look.cpp.o: ../src/Look.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Look.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Look.cpp.o -c /home/forest/CLionProjects/zuul-cpp/src/Look.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Look.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Look.cpp.o -c /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Look.cpp
 
 CMakeFiles/zuul-cpp.dir/src/Look.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zuul-cpp.dir/src/Look.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forest/CLionProjects/zuul-cpp/src/Look.cpp > CMakeFiles/zuul-cpp.dir/src/Look.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Look.cpp > CMakeFiles/zuul-cpp.dir/src/Look.cpp.i
 
 CMakeFiles/zuul-cpp.dir/src/Look.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zuul-cpp.dir/src/Look.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forest/CLionProjects/zuul-cpp/src/Look.cpp -o CMakeFiles/zuul-cpp.dir/src/Look.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Look.cpp -o CMakeFiles/zuul-cpp.dir/src/Look.cpp.s
 
 CMakeFiles/zuul-cpp.dir/src/Player.cpp.o: CMakeFiles/zuul-cpp.dir/flags.make
 CMakeFiles/zuul-cpp.dir/src/Player.cpp.o: ../src/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Player.cpp.o -c /home/forest/CLionProjects/zuul-cpp/src/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Player.cpp.o -c /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Player.cpp
 
 CMakeFiles/zuul-cpp.dir/src/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zuul-cpp.dir/src/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forest/CLionProjects/zuul-cpp/src/Player.cpp > CMakeFiles/zuul-cpp.dir/src/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Player.cpp > CMakeFiles/zuul-cpp.dir/src/Player.cpp.i
 
 CMakeFiles/zuul-cpp.dir/src/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zuul-cpp.dir/src/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forest/CLionProjects/zuul-cpp/src/Player.cpp -o CMakeFiles/zuul-cpp.dir/src/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Player.cpp -o CMakeFiles/zuul-cpp.dir/src/Player.cpp.s
 
 CMakeFiles/zuul-cpp.dir/src/Go.cpp.o: CMakeFiles/zuul-cpp.dir/flags.make
 CMakeFiles/zuul-cpp.dir/src/Go.cpp.o: ../src/Go.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Go.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Go.cpp.o -c /home/forest/CLionProjects/zuul-cpp/src/Go.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Go.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Go.cpp.o -c /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Go.cpp
 
 CMakeFiles/zuul-cpp.dir/src/Go.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zuul-cpp.dir/src/Go.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forest/CLionProjects/zuul-cpp/src/Go.cpp > CMakeFiles/zuul-cpp.dir/src/Go.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Go.cpp > CMakeFiles/zuul-cpp.dir/src/Go.cpp.i
 
 CMakeFiles/zuul-cpp.dir/src/Go.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zuul-cpp.dir/src/Go.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forest/CLionProjects/zuul-cpp/src/Go.cpp -o CMakeFiles/zuul-cpp.dir/src/Go.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Go.cpp -o CMakeFiles/zuul-cpp.dir/src/Go.cpp.s
 
 CMakeFiles/zuul-cpp.dir/src/Room.cpp.o: CMakeFiles/zuul-cpp.dir/flags.make
 CMakeFiles/zuul-cpp.dir/src/Room.cpp.o: ../src/Room.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Room.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Room.cpp.o -c /home/forest/CLionProjects/zuul-cpp/src/Room.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Room.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Room.cpp.o -c /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Room.cpp
 
 CMakeFiles/zuul-cpp.dir/src/Room.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zuul-cpp.dir/src/Room.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forest/CLionProjects/zuul-cpp/src/Room.cpp > CMakeFiles/zuul-cpp.dir/src/Room.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Room.cpp > CMakeFiles/zuul-cpp.dir/src/Room.cpp.i
 
 CMakeFiles/zuul-cpp.dir/src/Room.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zuul-cpp.dir/src/Room.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forest/CLionProjects/zuul-cpp/src/Room.cpp -o CMakeFiles/zuul-cpp.dir/src/Room.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Room.cpp -o CMakeFiles/zuul-cpp.dir/src/Room.cpp.s
 
 CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o: CMakeFiles/zuul-cpp.dir/flags.make
 CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o: ../src/CommandInstantiator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o -c /home/forest/CLionProjects/zuul-cpp/src/CommandInstantiator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o -c /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CommandInstantiator.cpp
 
 CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forest/CLionProjects/zuul-cpp/src/CommandInstantiator.cpp > CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CommandInstantiator.cpp > CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.i
 
 CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forest/CLionProjects/zuul-cpp/src/CommandInstantiator.cpp -o CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CommandInstantiator.cpp -o CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.s
 
 CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o: CMakeFiles/zuul-cpp.dir/flags.make
 CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o: ../src/CSVReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o -c /home/forest/CLionProjects/zuul-cpp/src/CSVReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o -c /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CSVReader.cpp
 
 CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forest/CLionProjects/zuul-cpp/src/CSVReader.cpp > CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CSVReader.cpp > CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.i
 
 CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forest/CLionProjects/zuul-cpp/src/CSVReader.cpp -o CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CSVReader.cpp -o CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.s
+
+CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o: CMakeFiles/zuul-cpp.dir/flags.make
+CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o: ../src/CommandHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o -c /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CommandHandler.cpp
+
+CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CommandHandler.cpp > CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.i
+
+CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/CommandHandler.cpp -o CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.s
+
+CMakeFiles/zuul-cpp.dir/src/Game.cpp.o: CMakeFiles/zuul-cpp.dir/flags.make
+CMakeFiles/zuul-cpp.dir/src/Game.cpp.o: ../src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/zuul-cpp.dir/src/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zuul-cpp.dir/src/Game.cpp.o -c /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Game.cpp
+
+CMakeFiles/zuul-cpp.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zuul-cpp.dir/src/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Game.cpp > CMakeFiles/zuul-cpp.dir/src/Game.cpp.i
+
+CMakeFiles/zuul-cpp.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zuul-cpp.dir/src/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Game.cpp -o CMakeFiles/zuul-cpp.dir/src/Game.cpp.s
 
 # Object files for target zuul-cpp
 zuul__cpp_OBJECTS = \
@@ -156,7 +182,9 @@ zuul__cpp_OBJECTS = \
 "CMakeFiles/zuul-cpp.dir/src/Go.cpp.o" \
 "CMakeFiles/zuul-cpp.dir/src/Room.cpp.o" \
 "CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o" \
-"CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o"
+"CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o" \
+"CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o" \
+"CMakeFiles/zuul-cpp.dir/src/Game.cpp.o"
 
 # External object files for target zuul-cpp
 zuul__cpp_EXTERNAL_OBJECTS =
@@ -168,9 +196,11 @@ zuul-cpp: CMakeFiles/zuul-cpp.dir/src/Go.cpp.o
 zuul-cpp: CMakeFiles/zuul-cpp.dir/src/Room.cpp.o
 zuul-cpp: CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o
 zuul-cpp: CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o
+zuul-cpp: CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o
+zuul-cpp: CMakeFiles/zuul-cpp.dir/src/Game.cpp.o
 zuul-cpp: CMakeFiles/zuul-cpp.dir/build.make
 zuul-cpp: CMakeFiles/zuul-cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable zuul-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable zuul-cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zuul-cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +213,6 @@ CMakeFiles/zuul-cpp.dir/clean:
 .PHONY : CMakeFiles/zuul-cpp.dir/clean
 
 CMakeFiles/zuul-cpp.dir/depend:
-	cd /home/forest/CLionProjects/zuul-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/forest/CLionProjects/zuul-cpp /home/forest/CLionProjects/zuul-cpp /home/forest/CLionProjects/zuul-cpp/cmake-build-debug /home/forest/CLionProjects/zuul-cpp/cmake-build-debug /home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Steve/CLionProjects/zuul-cpp /mnt/c/Users/Steve/CLionProjects/zuul-cpp /mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug /mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug /mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/zuul-cpp.dir/depend
 
