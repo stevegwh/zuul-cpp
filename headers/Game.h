@@ -1,7 +1,3 @@
-//
-// Created by Steve on 11/29/2019.
-//
-
 #ifndef ZUUL_CPP_GAME_H
 #define ZUUL_CPP_GAME_H
 
@@ -9,8 +5,8 @@
 #include "CommandInstantiator.h"
 #include "CommandHandler.h"
 #include <iostream>
-#include "../headers/Room.h"
-#include "../headers/CSVReader.h"
+#include "Room.h"
+#include "CSVReader.h"
 #include "Player.h"
 
 class Game
