@@ -6,9 +6,14 @@
 
 #include <utility>
 
+
+std::map<std::string, Room*> Game::rooms = Game::generateRooms();
+std::string Game::currentRoom = "entrance";
+bool Game::isRunning = true;
+
 void Game::start() {
 //    player->setCurrentLocation(currentRoom);
-    std::cout << "You are " + rooms[currentRoom]->getDescription() << std::endl;
+    std::cout << "You are " + rooms[Game::currentRoom]->getDescription() << std::endl;
     std::vector<std::string> inputArray = getUserChoice();
     if (commandHandler->validateCommand(inputArray)) {
         commandHandler->executeCommand(inputArray);
@@ -21,21 +26,24 @@ void Game::printWelcome() {
 }
 
 
-void Game::generateRooms() {
+std::map<std::string, Room*> Game::generateRooms() {
     std::cout << "Reading data now" << std::endl;
     CSVReader csvReader("/home/forest/CLionProjects/zuul-cpp/src/roomData.csv");
 //    auto *csvReader = new CSVReader("C:/Users/Steve/CLionProjects/zuul-cpp/src/roomData.csv");
     std::vector<std::vector<std::string>> data = csvReader.getData();
 
+
+    std::map<std::string, Room*> arr;
     for (auto & i : data) {
-        rooms[i[0]] = new Room(i);
+        arr[i[0]] = new Room(i);
     }
+    return arr;
 }
 
 std::vector<std::string> Game::getUserChoice() {
     std::string choice;
     std::cout << ">> ";
-    getline(cin, choice);
+    std::getline(std::cin, choice, '\n');
     return splitString(choice);
 }
 
@@ -60,7 +68,7 @@ std::vector<std::string> Game::splitString(std::string toSplit) {
 }
 
  void Game::setRoom(std::string newRoom) {
-    currentRoom = std::move(newRoom);
+    Game::currentRoom = std::move(newRoom);
 }
 
 Room Game::getCurrentRoom() {

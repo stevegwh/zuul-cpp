@@ -92,6 +92,24 @@ build CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o: CXX_COMPILER__zuul-cpp ../src
   OBJECT_DIR = CMakeFiles/zuul-cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/zuul-cpp.dir/src
 
+build CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o: CXX_COMPILER__zuul-cpp ../src/CommandHandler.cpp || cmake_object_order_depends_target_zuul-cpp
+  DEP_FILE = CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o.d
+  FLAGS = -std=gnu++14
+  OBJECT_DIR = CMakeFiles/zuul-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/zuul-cpp.dir/src
+
+build CMakeFiles/zuul-cpp.dir/src/Game.cpp.o: CXX_COMPILER__zuul-cpp ../src/Game.cpp || cmake_object_order_depends_target_zuul-cpp
+  DEP_FILE = CMakeFiles/zuul-cpp.dir/src/Game.cpp.o.d
+  FLAGS = -std=gnu++14
+  OBJECT_DIR = CMakeFiles/zuul-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/zuul-cpp.dir/src
+
+build CMakeFiles/zuul-cpp.dir/src/Quit.cpp.o: CXX_COMPILER__zuul-cpp ../src/Quit.cpp || cmake_object_order_depends_target_zuul-cpp
+  DEP_FILE = CMakeFiles/zuul-cpp.dir/src/Quit.cpp.o.d
+  FLAGS = -std=gnu++14
+  OBJECT_DIR = CMakeFiles/zuul-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/zuul-cpp.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target zuul-cpp
@@ -100,7 +118,7 @@ build CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o: CXX_COMPILER__zuul-cpp ../src
 #############################################
 # Link the executable zuul-cpp
 
-build zuul-cpp: CXX_EXECUTABLE_LINKER__zuul-cpp CMakeFiles/zuul-cpp.dir/src/Main.cpp.o CMakeFiles/zuul-cpp.dir/src/Look.cpp.o CMakeFiles/zuul-cpp.dir/src/Player.cpp.o CMakeFiles/zuul-cpp.dir/src/Go.cpp.o CMakeFiles/zuul-cpp.dir/src/Room.cpp.o CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o
+build zuul-cpp: CXX_EXECUTABLE_LINKER__zuul-cpp CMakeFiles/zuul-cpp.dir/src/Main.cpp.o CMakeFiles/zuul-cpp.dir/src/Look.cpp.o CMakeFiles/zuul-cpp.dir/src/Player.cpp.o CMakeFiles/zuul-cpp.dir/src/Go.cpp.o CMakeFiles/zuul-cpp.dir/src/Room.cpp.o CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o CMakeFiles/zuul-cpp.dir/src/Game.cpp.o CMakeFiles/zuul-cpp.dir/src/Quit.cpp.o
   OBJECT_DIR = CMakeFiles/zuul-cpp.dir
   POST_BUILD = :
   PRE_LINK = :

@@ -7,4 +7,5 @@ Command* CommandInstantiator::getCommand(const std::string& command) {
 CommandInstantiator::CommandInstantiator() {
     commands["go"] = new Go;
     commands["look"] = new Look;
+    commands["quit"] = new Quit;
 }

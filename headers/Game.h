@@ -12,24 +12,26 @@
 class Game
 {
 private:
-    std::string currentRoom = "entrance";
+    static std::string currentRoom;
     CommandHandler *commandHandler = new CommandHandler();
 //    std::map<std::string, std::unique_ptr<Room>> rooms;
-    std::map<std::string, Room*> rooms;
+    static std::map<std::string, Room*> rooms;
     Player *player = new Player();
-    void generateRooms();
+    static std::map<std::string, Room*> generateRooms();
     std::vector<std::string> getUserChoice();
 public:
-    void setRoom(std::string newRoom);
-    Room getCurrentRoom();
+    static bool isRunning;
+    static void setRoom(std::string newRoom);
+    static Room getCurrentRoom();
     void printWelcome();
     void start();
     Game() {
-        generateRooms();
+//        generateRooms();
 //        std::cout << rooms[player->getLocation()]->getDescription() << std::endl;
     }
 
     vector<std::string> splitString(string toSplit);
+
 };
 
 

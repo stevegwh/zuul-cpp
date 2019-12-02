@@ -7,6 +7,7 @@
 #include "Command.h"
 #include "Go.h"
 #include "Look.h"
+#include "Quit.h"
 
 class CommandInstantiator {
 private:

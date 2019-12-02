@@ -16,6 +16,7 @@ private:
     std::vector<std::string> actorsInRoom;
     std::map<std::string, std::string> exits;
 public:
+    bool hasExit(std::string direction);
     std::string getName();
     std::string setName();
     std::string getDescription();

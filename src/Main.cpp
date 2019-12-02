@@ -1,10 +1,11 @@
 #include "../headers/Game.h"
 
-
 int main() {
     Game game;
     game.printWelcome();
-    while (1) {
+    while (Game::isRunning) {
         game.start();
     }
+	std::cout << "Thanks for playing" << std::endl;
+    return 0;
 }
