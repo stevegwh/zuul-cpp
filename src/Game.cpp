@@ -8,7 +8,7 @@
 
 void Game::start() {
 //    player->setCurrentLocation(currentRoom);
-//    std::cout << rooms[currentRoom]->getDescription() << std::endl;
+    std::cout << "You are " + rooms[currentRoom]->getDescription() << std::endl;
     std::vector<std::string> inputArray = getUserChoice();
     if (commandHandler->validateCommand(inputArray)) {
         commandHandler->executeCommand(inputArray);
@@ -23,12 +23,12 @@ void Game::printWelcome() {
 
 void Game::generateRooms() {
     std::cout << "Reading data now" << std::endl;
-//    auto *csvReader = new CSVReader("/home/forest/CLionProjects/zuul-cpp/src/roomData.csv");
-    auto *csvReader = new CSVReader("C:/Users/Steve/CLionProjects/zuul-cpp/src/roomData.csv");
-    std::vector<std::vector<std::string>> data = csvReader->getData();
+    CSVReader csvReader("/home/forest/CLionProjects/zuul-cpp/src/roomData.csv");
+//    auto *csvReader = new CSVReader("C:/Users/Steve/CLionProjects/zuul-cpp/src/roomData.csv");
+    std::vector<std::vector<std::string>> data = csvReader.getData();
 
     for (auto & i : data) {
-        rooms[i[0]] = std::make_unique<Room>(i);
+        rooms[i[0]] = new Room(i);
     }
 }
 
@@ -64,5 +64,5 @@ std::vector<std::string> Game::splitString(std::string toSplit) {
 }
 
 Room Game::getCurrentRoom() {
-    return reinterpret_cast<Room &&>(rooms[currentRoom]);
+    return *rooms[currentRoom];
 }

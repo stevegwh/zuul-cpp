@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="zuul-cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zuul-cpp" TARGET_NAME="zuul-cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="zuul-cpp" RUN_TARGET_NAME="zuul-cpp">
+  <configuration default="false" name="zuul-cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="zuul-cpp" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="zuul-cpp">
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
     </method>

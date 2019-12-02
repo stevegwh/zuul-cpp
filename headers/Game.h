@@ -14,7 +14,8 @@ class Game
 private:
     std::string currentRoom = "entrance";
     CommandHandler *commandHandler = new CommandHandler();
-    std::map<std::string, std::unique_ptr<Room>> rooms;
+//    std::map<std::string, std::unique_ptr<Room>> rooms;
+    std::map<std::string, Room*> rooms;
     Player *player = new Player();
     void generateRooms();
     std::vector<std::string> getUserChoice();

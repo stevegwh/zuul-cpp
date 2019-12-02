@@ -1,6 +1,6 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/Steve/CLionProjects/zuul-cpp
--- The C compiler identification is GNU 7.4.0
--- The CXX compiler identification is GNU 7.4.0
+/opt/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/forest/CLionProjects/zuul-cpp
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
 -- Detecting C compiler ABI info
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Users/Steve/CLionProjects/zuul-cpp/cmake-build-debug
+-- Build files have been written to: /home/forest/CLionProjects/zuul-cpp/cmake-build-debug

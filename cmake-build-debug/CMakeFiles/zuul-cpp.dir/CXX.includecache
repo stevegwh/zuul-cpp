@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/CSVReader.h
+/home/forest/CLionProjects/zuul-cpp/headers/CSVReader.h
 utility
 -
 vector
@@ -14,21 +14,21 @@ vector
 string
 -
 
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Command.h
+/home/forest/CLionProjects/zuul-cpp/headers/Command.h
 string
 -
 vector
 -
 
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/CommandHandler.h
+/home/forest/CLionProjects/zuul-cpp/headers/CommandHandler.h
 vector
 -
 string
 -
 CommandInstantiator.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/CommandInstantiator.h
+/home/forest/CLionProjects/zuul-cpp/headers/CommandInstantiator.h
 
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/CommandInstantiator.h
+/home/forest/CLionProjects/zuul-cpp/headers/CommandInstantiator.h
 iostream
 -
 map
@@ -36,39 +36,39 @@ map
 memory
 -
 Command.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Command.h
+/home/forest/CLionProjects/zuul-cpp/headers/Command.h
 Go.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Go.h
+/home/forest/CLionProjects/zuul-cpp/headers/Go.h
 Look.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Look.h
+/home/forest/CLionProjects/zuul-cpp/headers/Look.h
 
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Game.h
+/home/forest/CLionProjects/zuul-cpp/headers/Game.h
 CommandInstantiator.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/CommandInstantiator.h
+/home/forest/CLionProjects/zuul-cpp/headers/CommandInstantiator.h
 CommandHandler.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/CommandHandler.h
+/home/forest/CLionProjects/zuul-cpp/headers/CommandHandler.h
 iostream
 -
-../headers/Room.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Room.h
-../headers/CSVReader.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/CSVReader.h
+Room.h
+/home/forest/CLionProjects/zuul-cpp/headers/Room.h
+CSVReader.h
+/home/forest/CLionProjects/zuul-cpp/headers/CSVReader.h
 Player.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Player.h
+/home/forest/CLionProjects/zuul-cpp/headers/Player.h
 
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Go.h
-../headers/Command.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Command.h
+/home/forest/CLionProjects/zuul-cpp/headers/Go.h
+Command.h
+/home/forest/CLionProjects/zuul-cpp/headers/Command.h
 
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Look.h
-../headers/Command.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Command.h
+/home/forest/CLionProjects/zuul-cpp/headers/Look.h
+Command.h
+/home/forest/CLionProjects/zuul-cpp/headers/Command.h
 
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Player.h
+/home/forest/CLionProjects/zuul-cpp/headers/Player.h
 string
 -
 
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Room.h
+/home/forest/CLionProjects/zuul-cpp/headers/Room.h
 string
 -
 map
@@ -78,9 +78,9 @@ utility
 vector
 -
 
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/src/Game.cpp
+/home/forest/CLionProjects/zuul-cpp/src/Game.cpp
 ../headers/Game.h
-/mnt/c/Users/Steve/CLionProjects/zuul-cpp/headers/Game.h
+/home/forest/CLionProjects/zuul-cpp/headers/Game.h
 utility
 -
 
