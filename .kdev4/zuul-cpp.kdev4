@@ -12,6 +12,15 @@ Extra Arguments=
 Install Directory=
 Runtime=Host System
 
+[Clazy]
+checks=level2
+
+[Cppcheck]
+checkMissingInclude=true
+checkPerformance=true
+checkStyle=true
+checkUnusedFunction=true
+
 [Launch]
 Launch Configurations=Launch Configuration 0
 

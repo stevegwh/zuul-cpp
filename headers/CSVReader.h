@@ -18,7 +18,7 @@ private:
 	std::vector<std::string> splitString(std::string toSplit, char delimeter);
 public:
     std::vector<std::vector<std::string>> getData();
-    CSVReader(std::string filename, char delm = ',') :
+    explicit CSVReader(std::string filename, char delm = ',') :
              delimeter(std::move(delm)), fileName(std::move(filename))
     { }
 };
