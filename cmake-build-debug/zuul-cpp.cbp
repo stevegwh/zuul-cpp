@@ -106,6 +106,9 @@
 		<Unit filename="/home/forest/CLionProjects/zuul-cpp/headers/Player.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
+		<Unit filename="/home/forest/CLionProjects/zuul-cpp/headers/Quit.h">
+			<Option target="zuul-cpp"/>
+		</Unit>
 		<Unit filename="/home/forest/CLionProjects/zuul-cpp/headers/Room.h">
 			<Option target="zuul-cpp"/>
 		</Unit>
@@ -131,6 +134,9 @@
 			<Option target="zuul-cpp"/>
 		</Unit>
 		<Unit filename="/home/forest/CLionProjects/zuul-cpp/src/Player.cpp">
+			<Option target="zuul-cpp"/>
+		</Unit>
+		<Unit filename="/home/forest/CLionProjects/zuul-cpp/src/Quit.cpp">
 			<Option target="zuul-cpp"/>
 		</Unit>
 		<Unit filename="/home/forest/CLionProjects/zuul-cpp/src/Room.cpp">

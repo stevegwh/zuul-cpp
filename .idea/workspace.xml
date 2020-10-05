@@ -12,19 +12,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fd2ba77-3b3f-4002-bdd4-3ed258fb6a36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/zuul_cpp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zuul-cpp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zuul-cpp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kdev4/zuul-cpp.kdev4" beforeDir="false" afterPath="$PROJECT_DIR$/.kdev4/zuul-cpp.kdev4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zuul.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Zuul.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zuul.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Zuul.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zuul.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Zuul.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/build/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/build/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.15.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Game.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Game.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Go.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Go.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Look.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Look.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Player.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Quit.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Quit.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Room.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/zuul-cpp.dir/src/Room.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/build/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/build/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Game.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Game.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Go.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Go.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Look.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Look.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Player.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Room.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Room.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vgcore.14210" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vgcore.14210" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/zuul-cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/zuul-cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/zuul-cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/zuul-cpp.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/CSVReader.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/CSVReader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Command.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Command.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/CommandHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/CommandHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/CommandInstantiator.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/CommandInstantiator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headers/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Go.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Go.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Look.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Look.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Quit.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Quit.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headers/Room.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Room.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSVReader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSVReader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandInstantiator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandInstantiator.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Go.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Go.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Look.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Look.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quit.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Room.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Room.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roomData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/roomData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-cpp.kdev4" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-cpp.kdev4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +133,19 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,7 +161,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zuul-cpp" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zuul-cpp" TARGET_NAME="zuul-cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="zuul-cpp" RUN_TARGET_NAME="zuul-cpp">
+    <configuration name="zuul-cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zuul-cpp" TARGET_NAME="zuul-cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="zuul-cpp" RUN_TARGET_NAME="zuul-cpp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -110,6 +200,11 @@
       <workItem from="1573419031800" duration="895000" />
       <workItem from="1574189597568" duration="753000" />
       <workItem from="1574847139855" duration="878000" />
+      <workItem from="1575252721709" duration="163000" />
+      <workItem from="1575409063485" duration="89000" />
+      <workItem from="1575409198589" duration="247000" />
+      <workItem from="1575410328292" duration="421000" />
+      <workItem from="1575562623436" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="CLion changes">
       <created>1572544422171</created>
@@ -185,26 +280,38 @@
       <screen x="0" y="28" width="1600" height="872" />
     </state>
     <state x="264" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1600.872@0.28.1600.872" timestamp="1575247927284" />
+    <state x="690" y="395" width="529" height="327" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1575410389460">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="690" y="395" width="529" height="327" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1575410389460" />
     <state x="176" y="28" key="CommitChangelistDialog2" timestamp="1575248449462">
       <screen x="0" y="28" width="1600" height="872" />
     </state>
     <state x="176" y="28" key="CommitChangelistDialog2/0.28.1600.872@0.28.1600.872" timestamp="1575248449462" />
-    <state width="1558" height="292" key="GridCell.Tab.0.bottom" timestamp="1575250602304">
-      <screen x="0" y="28" width="1600" height="872" />
+    <state x="748" y="295" key="FileChooserDialogImpl" timestamp="1575410382709">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1558" height="292" key="GridCell.Tab.0.bottom/0.28.1600.872@0.28.1600.872" timestamp="1575250602304" />
-    <state width="1558" height="292" key="GridCell.Tab.0.center" timestamp="1575250602304">
-      <screen x="0" y="28" width="1600" height="872" />
+    <state x="748" y="295" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1575410382709" />
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1575409445091">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1558" height="292" key="GridCell.Tab.0.center/0.28.1600.872@0.28.1600.872" timestamp="1575250602304" />
-    <state width="1558" height="292" key="GridCell.Tab.0.left" timestamp="1575250602303">
-      <screen x="0" y="28" width="1600" height="872" />
+    <state width="1558" height="188" key="GridCell.Tab.0.bottom/0.28.1600.872@0.28.1600.872" timestamp="1575252885100" />
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1575409445091" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1575409445091">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1558" height="292" key="GridCell.Tab.0.left/0.28.1600.872@0.28.1600.872" timestamp="1575250602303" />
-    <state width="1558" height="292" key="GridCell.Tab.0.right" timestamp="1575250602304">
-      <screen x="0" y="28" width="1600" height="872" />
+    <state width="1558" height="188" key="GridCell.Tab.0.center/0.28.1600.872@0.28.1600.872" timestamp="1575252885099" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1575409445091" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1575409445091">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1558" height="292" key="GridCell.Tab.0.right/0.28.1600.872@0.28.1600.872" timestamp="1575250602304" />
+    <state width="1558" height="188" key="GridCell.Tab.0.left/0.28.1600.872@0.28.1600.872" timestamp="1575252885099" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1575409445091" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1575409445091">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1558" height="188" key="GridCell.Tab.0.right/0.28.1600.872@0.28.1600.872" timestamp="1575252885099" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1575409445091" />
     <state width="1558" height="292" key="GridCell.Tab.1.bottom" timestamp="1575250602306">
       <screen x="0" y="28" width="1600" height="872" />
     </state>
@@ -221,14 +328,19 @@
       <screen x="0" y="28" width="1600" height="872" />
     </state>
     <state width="1558" height="292" key="GridCell.Tab.1.right/0.28.1600.872@0.28.1600.872" timestamp="1575250602305" />
-    <state x="316" y="85" key="SettingsEditor" timestamp="1575249310878">
-      <screen x="0" y="28" width="1600" height="872" />
+    <state x="740" y="69" key="SettingsEditor" timestamp="1575409409794">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="316" y="85" key="SettingsEditor/0.28.1600.872@0.28.1600.872" timestamp="1575249310878" />
+    <state x="316" y="85" key="SettingsEditor/0.28.1600.872@0.28.1600.872" timestamp="1575252842616" />
+    <state x="740" y="69" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1575409409794" />
     <state x="400" y="186" key="Vcs.Push.Dialog.v2" timestamp="1575248485959">
       <screen x="0" y="28" width="1600" height="872" />
     </state>
     <state x="400" y="186" key="Vcs.Push.Dialog.v2/0.28.1600.872@0.28.1600.872" timestamp="1575248485959" />
+    <state x="659" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1575409068443">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="659" y="378" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1575409068443" />
     <state x="516" y="254" width="558" height="419" key="git4idea.merge.GitPullDialog" timestamp="1575247707794">
       <screen x="0" y="28" width="1600" height="872" />
     </state>

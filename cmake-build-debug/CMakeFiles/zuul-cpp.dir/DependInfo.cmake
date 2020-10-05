@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/forest/CLionProjects/zuul-cpp/src/Look.cpp" "/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Look.cpp.o"
   "/home/forest/CLionProjects/zuul-cpp/src/Main.cpp" "/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Main.cpp.o"
   "/home/forest/CLionProjects/zuul-cpp/src/Player.cpp" "/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Player.cpp.o"
+  "/home/forest/CLionProjects/zuul-cpp/src/Quit.cpp" "/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Quit.cpp.o"
   "/home/forest/CLionProjects/zuul-cpp/src/Room.cpp" "/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Room.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

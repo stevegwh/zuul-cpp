@@ -41,6 +41,8 @@ Go.h
 /home/forest/CLionProjects/zuul-cpp/headers/Go.h
 Look.h
 /home/forest/CLionProjects/zuul-cpp/headers/Look.h
+Quit.h
+/home/forest/CLionProjects/zuul-cpp/headers/Quit.h
 
 /home/forest/CLionProjects/zuul-cpp/headers/Game.h
 CommandInstantiator.h
@@ -68,6 +70,10 @@ Command.h
 string
 -
 
+/home/forest/CLionProjects/zuul-cpp/headers/Quit.h
+Command.h
+/home/forest/CLionProjects/zuul-cpp/headers/Command.h
+
 /home/forest/CLionProjects/zuul-cpp/headers/Room.h
 string
 -
@@ -77,6 +83,22 @@ utility
 -
 vector
 -
+
+/home/forest/CLionProjects/zuul-cpp/src/CSVReader.cpp
+fstream
+-
+iostream
+-
+../headers/CSVReader.h
+/home/forest/CLionProjects/zuul-cpp/headers/CSVReader.h
+
+/home/forest/CLionProjects/zuul-cpp/src/CommandHandler.cpp
+../headers/CommandHandler.h
+/home/forest/CLionProjects/zuul-cpp/headers/CommandHandler.h
+
+/home/forest/CLionProjects/zuul-cpp/src/CommandInstantiator.cpp
+../headers/CommandInstantiator.h
+/home/forest/CLionProjects/zuul-cpp/headers/CommandInstantiator.h
 
 /home/forest/CLionProjects/zuul-cpp/src/Game.cpp
 ../headers/Game.h
@@ -96,11 +118,21 @@ vector
 string
 -
 
+/home/forest/CLionProjects/zuul-cpp/src/Look.cpp
+../headers/Look.h
+/home/forest/CLionProjects/zuul-cpp/headers/Look.h
+../headers/Game.h
+/home/forest/CLionProjects/zuul-cpp/headers/Game.h
+iostream
+-
+
 /home/forest/CLionProjects/zuul-cpp/src/Main.cpp
 ../headers/Game.h
 /home/forest/CLionProjects/zuul-cpp/headers/Game.h
 
-/home/forest/CLionProjects/zuul-cpp/src/Room.cpp
-../headers/Room.h
-/home/forest/CLionProjects/zuul-cpp/headers/Room.h
+/home/forest/CLionProjects/zuul-cpp/src/Quit.cpp
+../headers/Quit.h
+/home/forest/CLionProjects/zuul-cpp/headers/Quit.h
+../headers/Game.h
+/home/forest/CLionProjects/zuul-cpp/headers/Game.h
 

@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/forest/CLionProjects/zuul-cpp/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -339,6 +339,33 @@ src/Player.cpp.s:
 	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
+src/Quit.o: src/Quit.cpp.o
+
+.PHONY : src/Quit.o
+
+# target to build an object file
+src/Quit.cpp.o:
+	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/Quit.cpp.o
+.PHONY : src/Quit.cpp.o
+
+src/Quit.i: src/Quit.cpp.i
+
+.PHONY : src/Quit.i
+
+# target to preprocess a source file
+src/Quit.cpp.i:
+	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/Quit.cpp.i
+.PHONY : src/Quit.cpp.i
+
+src/Quit.s: src/Quit.cpp.s
+
+.PHONY : src/Quit.s
+
+# target to generate assembly for a file
+src/Quit.cpp.s:
+	$(MAKE) -f CMakeFiles/zuul-cpp.dir/build.make CMakeFiles/zuul-cpp.dir/src/Quit.cpp.s
+.PHONY : src/Quit.cpp.s
+
 src/Room.o: src/Room.cpp.o
 
 .PHONY : src/Room.o
@@ -399,6 +426,9 @@ help:
 	@echo "... src/Player.o"
 	@echo "... src/Player.i"
 	@echo "... src/Player.s"
+	@echo "... src/Quit.o"
+	@echo "... src/Quit.i"
+	@echo "... src/Quit.s"
 	@echo "... src/Room.o"
 	@echo "... src/Room.i"
 	@echo "... src/Room.s"
