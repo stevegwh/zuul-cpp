@@ -26,18 +26,10 @@ public:
     Room(std::vector<std::string> data) :
         name(data[0]), description(data[1])
     {
-		if (data[2] != "null") {
-			exits["north"] = data[2];
-		}
-		if (data[3] != "null") {
-			exits["east"] = data[3];
-		}
-		if (data[4] != "null") {
-			exits["south"] = data[4];
-		}
-		if (data[5] != "null") {
-			exits["west"] = data[5];
-		}
+        if (data[2] != "null") exits["north"] = data[2];
+        if (data[3] != "null") exits["east"] = data[3];
+        if (data[4] != "null") exits["south"] = data[4];
+        if (data[5] != "null") exits["west"] = data[5];
     }
 };
 

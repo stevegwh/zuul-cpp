@@ -1,16 +1,29 @@
 #include "../headers/Go.h"
 #include "../headers/Game.h"
-#include <iostream>
-#include <vector>
-#include <string>
 
 
 void Go::execute(std::vector<std::string> inputArr)
 {
-	if (Game::getCurrentRoom().hasExit(inputArr[1])) {
-        std::cout << "You went " + inputArr[1] << std::endl;
-        Game::setRoom(Game::getCurrentRoom().getExit(inputArr[1]));
-	} else {
-	    std::cout << "You can't go that way" << std::endl;
-	}
+    std::string toCheck = inputArr[1];
+
+    if (!validate(toCheck))
+    {
+        std::cout << "Invalid direction." << std::endl;
+        return;
+    }
+    if (Game::getCurrentRoom().hasExit(toCheck)) {
+        std::cout << "You went " + toCheck << std::endl;
+        Game::setRoom(Game::getCurrentRoom().getExit(toCheck));
+    } else {
+        std::cout << "You can't go that way" << std::endl;
+    }
+}
+
+bool Go::validate(std::string direction)
+{
+    for(int i=0; i < (int)directions.size(); ++i)
+    {
+        if (directions[i] == direction) return true;
+    }
+    return false;
 }

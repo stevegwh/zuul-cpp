@@ -12,8 +12,8 @@
 class CommandInstantiator {
 private:
 	std::map<std::string, Command*> commands;
-
 public:
+    std::map<std::string, Command*> getCommands();
     Command* getCommand(const std::string& command);
 	CommandInstantiator();
 };

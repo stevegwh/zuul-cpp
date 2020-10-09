@@ -4,8 +4,14 @@
 
 #include "../headers/CommandHandler.h"
 
-bool CommandHandler::validateCommand(std::vector<std::string> inputArr) {
-    return true;
+bool CommandHandler::validateCommandWord(std::vector<std::string> inputArr) {
+    if (inputArr.size() <= 0) return false;
+    auto commands = commandInstantiator->getCommands();
+    for (auto it = commands.begin(); it != commands.end(); ++it)
+    {
+        if (it->first == inputArr[0]) return true;
+    }
+    return false;
 }
 
 void CommandHandler::executeCommand(std::vector<std::string> inputArr) {

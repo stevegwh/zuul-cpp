@@ -8,6 +8,7 @@
 class Command {
 public:
     virtual void execute(std::vector<std::string> inputArr) = 0;
+    bool validate(std::vector<std::string> inputArr);
 };
 
 

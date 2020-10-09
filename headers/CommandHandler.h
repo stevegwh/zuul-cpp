@@ -7,11 +7,11 @@
 #include "CommandInstantiator.h"
 
 class CommandHandler {
-    private:
-        CommandInstantiator *commandInstantiator = new CommandInstantiator();
-    public:
+private:
+    CommandInstantiator *commandInstantiator = new CommandInstantiator();
+public:
+    bool validateCommandWord(std::vector<std::string> inputArr);
     void executeCommand(std::vector<std::string>);
-    bool validateCommand(std::vector<std::string> inputArr);
     CommandHandler() { }
 };
 
