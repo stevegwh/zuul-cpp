@@ -1,6 +1,6 @@
 
-#ifndef QUIT_H
-#define QUIT_H
+#ifndef ZUUL_CPP_QUIT_H
+#define ZUUL_CPP_QUIT_H
 
 #include "Command.h"
 
@@ -20,4 +20,4 @@ public:
 
 };
 
-#endif // QUIT_H
+#endif // ZUUL_CPP_QUIT_H

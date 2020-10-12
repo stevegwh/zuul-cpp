@@ -1,6 +1,9 @@
 #include "../headers/Go.h"
-#include "../headers/Game.h"
 
+#include <iostream>
+#include <algorithm>
+#include <cctype>
+#include "../headers/Game.h"
 
 void Go::execute(std::vector<std::string> inputArr)
 {

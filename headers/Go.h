@@ -1,11 +1,8 @@
 #ifndef ZUUL_CPP_GO_H
 #define ZUUL_CPP_GO_H
 
-#include <iostream>
 #include <vector>
 #include <string>
-#include <algorithm>
-#include <cctype>
 #include "Command.h"
 
 class Go: public Command

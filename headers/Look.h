@@ -2,6 +2,7 @@
 #define ZUUL_CPP_LOOK_H
 
 #include "Command.h"
+#include <iostream>
 
 
 class Look: public Command

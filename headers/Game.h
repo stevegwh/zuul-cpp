@@ -2,12 +2,14 @@
 #define ZUUL_CPP_GAME_H
 
 
+#include "ZuulServices.h"
 #include "CommandInstantiator.h"
 #include "CommandHandler.h"
 #include <iostream>
 #include "Room.h"
 #include "CSVReader.h"
 #include "Player.h"
+
 
 class Game
 {
@@ -30,7 +32,6 @@ public:
 //        std::cout << rooms[player->getLocation()]->getDescription() << std::endl;
     }
 
-    vector<std::string> splitString(string toSplit);
 
 };
 

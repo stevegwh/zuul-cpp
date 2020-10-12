@@ -2,15 +2,19 @@
 #define ZUUL_CPP_PLAYER_H
 
 #include <string>
-using namespace std;
+#include <vector>
+#include <InventoryItem.h>
+
 
 class Player
 {
 private:
-	string currentLocation = "London";
+    std::vector<InventoryItem> inventory;
+    std::string currentLocation = "London";
+
 public:
-	void setCurrentLocation(string location);
-	string getLocation();
+    void setCurrentLocation(std::string location);
+    std::string getLocation();
 };
 
 #endif //ZUUL_CPP_PLAYER_H

@@ -7,18 +7,21 @@
 #include <vector>
 
 
+
+
 class Room
 {
 private:
     std::string name;
     std::string description;
     std::vector<std::string> itemsInRoom;
-    std::vector<std::string> actorsInRoom;
+//    std::vector<std::string> actorsInRoom;
     std::map<std::string, std::string> exits;
 public:
     bool hasExit(std::string direction);
     std::string getName();
     std::string setName();
+    std::vector<std::string> getItems();
     std::string getDescription();
     std::string setDescription();
     std::string getExit(std::string direction);
@@ -30,6 +33,8 @@ public:
         if (data[3] != "null") exits["east"] = data[3];
         if (data[4] != "null") exits["south"] = data[4];
         if (data[5] != "null") exits["west"] = data[5];
+        std::vector<std::string> items(data.begin() + 5, data.end());
+        itemsInRoom = std::move(items);
     }
 };
 

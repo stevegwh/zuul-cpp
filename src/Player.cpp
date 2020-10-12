@@ -1,12 +1,12 @@
 #include "../headers/Player.h"
 
 
-void Player::setCurrentLocation(string location)
+void Player::setCurrentLocation(std::string location)
 {
 	Player::currentLocation = location;
 }
 
-string Player::getLocation()
+std::string Player::getLocation()
 {
 	return Player::currentLocation;
 }
