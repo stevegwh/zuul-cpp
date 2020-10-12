@@ -1,3 +1,0 @@
-/home/forest/CLionProjects/zuul-cpp/build/CMakeFiles/rebuild_cache.dir
-/home/forest/CLionProjects/zuul-cpp/build/CMakeFiles/zuul-cpp.dir
-/home/forest/CLionProjects/zuul-cpp/build/CMakeFiles/edit_cache.dir
