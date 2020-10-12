@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o"
+  "CMakeFiles/zuul-cpp.dir/src/Command.cpp.o"
   "CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o"
   "CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o"
   "CMakeFiles/zuul-cpp.dir/src/Game.cpp.o"

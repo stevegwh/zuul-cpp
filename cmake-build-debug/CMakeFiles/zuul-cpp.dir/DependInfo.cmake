@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/forest/CLionProjects/zuul-cpp/src/CSVReader.cpp" "/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CSVReader.cpp.o"
+  "/home/forest/CLionProjects/zuul-cpp/src/Command.cpp" "/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Command.cpp.o"
   "/home/forest/CLionProjects/zuul-cpp/src/CommandHandler.cpp" "/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CommandHandler.cpp.o"
   "/home/forest/CLionProjects/zuul-cpp/src/CommandInstantiator.cpp" "/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/CommandInstantiator.cpp.o"
   "/home/forest/CLionProjects/zuul-cpp/src/Game.cpp" "/home/forest/CLionProjects/zuul-cpp/cmake-build-debug/CMakeFiles/zuul-cpp.dir/src/Game.cpp.o"
