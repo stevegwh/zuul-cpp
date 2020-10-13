@@ -14,23 +14,26 @@
 class Game
 {
 private:
-    static std::string currentRoom;
+    std::string currentRoom = "entrance";
+    std::map<std::string, Room*> rooms = generateRooms();
+    Player* player = new Player();
     CommandHandler *commandHandler = new CommandHandler();
-//    std::map<std::string, std::unique_ptr<Room>> rooms;
-    static std::map<std::string, Room*> rooms;
-    Player *player = new Player();
-    static std::map<std::string, Room*> generateRooms();
+    std::map<std::string, Room*> generateRooms();
     std::vector<std::string> getUserChoice();
 public:
-    static bool isRunning;
-    static void setRoom(std::string newRoom);
-    static Room getCurrentRoom();
+    static Game& getInstance()
+    {
+        static Game s;
+        return s;
+    }
+
+
+    bool isRunning = true;
+    void setRoom(std::string newRoom);
+    Room* getCurrentRoom();
+    Player* getPlayer();
     void printWelcome();
     void start();
-    Game() {
-//        generateRooms();
-//        std::cout << rooms[player->getLocation()]->getDescription() << std::endl;
-    }
 
 
 };

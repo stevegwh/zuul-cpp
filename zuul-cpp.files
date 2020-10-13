@@ -31,6 +31,7 @@ headers/CommandHandler.h
 headers/CommandInstantiator.h
 headers/Game.h
 headers/Go.h
+headers/Inventory.h
 headers/InventoryItem.h
 headers/Look.h
 headers/Player.h
@@ -44,6 +45,7 @@ src/CommandHandler.cpp
 src/CommandInstantiator.cpp
 src/Game.cpp
 src/Go.cpp
+src/Inventory.cpp
 src/InventoryItem.cpp
 src/Look.cpp
 src/Main.cpp
@@ -52,4 +54,6 @@ src/Quit.cpp
 src/Room.cpp
 src/Take.cpp
 src/ZuulServices.cpp
+src/home/forest/git/zuul-cpp/headers/Inventory.h
+src/home/forest/git/zuul-cpp/src/Inventory.cpp
 src/roomData.csv

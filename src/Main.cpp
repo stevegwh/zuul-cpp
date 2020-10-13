@@ -1,10 +1,9 @@
 #include "../headers/Game.h"
 
 int main() {
-    Game game;
-    game.printWelcome();
-    while (Game::isRunning) {
-        game.start();
+    Game::getInstance().printWelcome();
+    while (Game::getInstance().isRunning) {
+        Game::getInstance().start();
     }
 	std::cout << "Thanks for playing" << std::endl;
     return 0;

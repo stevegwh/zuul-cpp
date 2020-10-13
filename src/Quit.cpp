@@ -4,6 +4,6 @@
 
 void Quit::execute(std::vector< std::string > inputArr)
 {
-	Game::isRunning = false;
+	Game::getInstance().isRunning = false;
 
 }

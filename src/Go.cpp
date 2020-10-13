@@ -14,19 +14,19 @@ void Go::execute(std::vector<std::string> inputArr)
         std::cout << "Invalid direction." << std::endl;
         return;
     }
-    if (Game::getCurrentRoom().hasExit(toCheck)) {
+    if (Game::getInstance().getCurrentRoom()->hasExit(toCheck)) {
         std::cout << "You went " + toCheck << std::endl;
-        Game::setRoom(Game::getCurrentRoom().getExit(toCheck));
+        Game::getInstance().setRoom(Game::getInstance().getCurrentRoom()->getExit(toCheck));
     } else {
         std::cout << "You can't go that way" << std::endl;
     }
 }
 
-bool Go::validate(std::string direction)
+bool Go::validate(const std::string& direction)
 {
-    for(int i=0; i < (int)directions.size(); ++i)
+    for(auto & i : directions)
     {
-        if (directions[i] == direction) return true;
+        if (i == direction) return true;
     }
     return false;
 }

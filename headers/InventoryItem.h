@@ -1,7 +1,8 @@
-#ifndef INVENTORYITEM_H
-#define INVENTORYITEM_H
+#ifndef ZUUL_CPP_INVENTORYITEM_H
+#define ZUUL_CPP_INVENTORYITEM_H
 
 #include <string>
+
 class InventoryItem
 {
 private:
@@ -12,9 +13,9 @@ public:
     std::string getName();
     int getWeight();
 
-    InventoryItem(std::string itemName, int itemWeight) :
+    InventoryItem(const std::string& itemName, int itemWeight) :
        itemName(itemName), itemWeight(itemWeight)
     {}
 };
 
-#endif // INVENTORYITEM_H
+#endif // ZUUL_CPPINVENTORYITEM_H

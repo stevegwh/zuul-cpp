@@ -5,6 +5,7 @@
 #include <utility>
 
 std::vector<std::vector<std::string>> CSVReader::getData() {
+    std::cout << "BEING CALLED" << std::endl;
     std::ifstream file(fileName);
 
     std::vector<std::vector<std::string> > dataList;

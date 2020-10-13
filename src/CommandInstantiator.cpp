@@ -2,6 +2,7 @@
 #include "../headers/Go.h"
 #include "../headers/Look.h"
 #include "../headers/Take.h"
+#include "../headers/Inventory.h"
 #include "../headers/Quit.h"
 
 Command* CommandInstantiator::getCommand(const std::string& command)
@@ -19,5 +20,6 @@ CommandInstantiator::CommandInstantiator()
     commands["go"] = new Go;
     commands["look"] = new Look;
     commands["take"] = new Take;
+    commands["inventory"] = new Inventory;
     commands["quit"] = new Quit;
 }

@@ -11,7 +11,7 @@ private:
     std::vector<std::string> directions = {"north", "south", "east", "west"};
 public:
     void execute(std::vector<std::string> inputArr) override;
-    bool validate(std::string direction);
+    bool validate(const std::string& direction);
 };
 
 #endif //ZUUL_CPP_GO_H

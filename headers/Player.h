@@ -3,18 +3,23 @@
 
 #include <string>
 #include <vector>
-#include <InventoryItem.h>
+#include <memory>
+#include "InventoryItem.h"
 
 
 class Player
 {
 private:
-    std::vector<InventoryItem> inventory;
+    const int maxInventoryWeight = 10;
+    int currentWeight = 0;
+    std::vector<std::shared_ptr<InventoryItem>> inventory;
     std::string currentLocation = "London";
 
 public:
     void setCurrentLocation(std::string location);
     std::string getLocation();
+    void addItemToInventory(std::shared_ptr<InventoryItem> itemToAdd);
+    void listInventory();
 };
 
 #endif //ZUUL_CPP_PLAYER_H

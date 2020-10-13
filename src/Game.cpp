@@ -4,13 +4,12 @@
 
 #include "../headers/Game.h"
 
-std::map<std::string, Room*> Game::rooms = Game::generateRooms();
-std::string Game::currentRoom = "entrance";
-bool Game::isRunning = true;
+
 
 void Game::start()
 {
 //    player->setCurrentLocation(currentRoom);
+    std::cout << rooms[Game::currentRoom]->getItems().size() << std::endl;
     std::cout << "You are " + rooms[Game::currentRoom]->getDescription() << std::endl;
     std::vector<std::string> inputArray = getUserChoice();
     if (!commandHandler->validateCommandWord(inputArray))
@@ -34,7 +33,10 @@ std::map<std::string, Room*> Game::generateRooms()
     CSVReader csvReader("../src/roomData.csv");
     std::vector<std::vector<std::string>> data = csvReader.getData();
     std::map<std::string, Room*> arr;
-    for (auto & i : data) arr[i[0]] = new Room(i);
+    for (auto & i : data)
+    {
+        arr[i[0]] = new Room(i);
+    }
     return arr;
 }
 
@@ -51,10 +53,15 @@ std::vector<std::string> Game::getUserChoice()
 
 void Game::setRoom(std::string newRoom)
 {
-    Game::currentRoom = std::move(newRoom);
+    currentRoom = std::move(newRoom);
 }
 
-Room Game::getCurrentRoom()
+Room* Game::getCurrentRoom()
 {
-    return *rooms[currentRoom];
+    return rooms[currentRoom];
+}
+
+Player* Game::getPlayer()
+{
+    return player;
 }

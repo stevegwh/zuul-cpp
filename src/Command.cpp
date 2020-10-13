@@ -1,6 +1,3 @@
 #include "../headers/Command.h"
 
-bool Command::validate(std::vector<std::string> inputArr)
-{
-    return true;
-}
+auto Command::validate(std::vector<std::string> inputArr) -> bool { return true; }
